@@ -2,7 +2,7 @@ EXE = all hail the best makefile
 
 CC = g++
 
-OBJECTS = main.o ask.o
+OBJECTS = main.o
 
 LFLAGS = 
 
