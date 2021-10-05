@@ -36,7 +36,7 @@ clean:
 #----------how to run makefile with two CPP files:-------------#
 
 1) Use the command `make` to make file. 
-2) Once completed use the name in the Makefile to run. Example: `prog4`.
+2) Once completed use the name in the Makefile to run. Example used in example: `projectName`.
 3) After that you'll be left with files for example ${main cpp file}.o
 
 Optional but recommended (clean):
