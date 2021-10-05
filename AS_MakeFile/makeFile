@@ -1,7 +1,7 @@
-example of adding multiple .cpp files
+# example of adding multiple .cpp files
 
 
-EXE = all hail the best makefile
+EXE = programTest
 
 CC = g++
 
@@ -19,7 +19,6 @@ main.o:				main.cpp
 
 second.o:			second.cpp
 					$(CC) $(CFLAGS) -c second.cpp
-
 
 clean:		
 					rm -rf $(EXE) $(OBJECTS) *~

@@ -41,6 +41,6 @@ clean:
 
 Optional but recommended (clean):
 
-4) To remove leftover files like "main.o" use the command: `${name in makeFile} clean.
+4) To remove leftover files like "main.o" use the command: `make clean`.
 
 
