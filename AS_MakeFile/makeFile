@@ -1,0 +1,19 @@
+EXE = all hail the best makefile
+
+CC = g++
+
+OBJECTS = main.o ask.o
+
+LFLAGS = 
+
+CFLAGS = 
+
+$(EXE):				$(OBJECTS)
+					$(CC) $(CFLAGS) -o $(EXE) $(OBJECTS) $(LFLAGS)
+
+main.o:				main.cpp
+					$(CC) $(CFLAGS) -c main.cpp
+
+
+clean:		
+					rm -rf $(EXE) $(OBJECTS) *~
