@@ -1,8 +1,11 @@
+example of adding multiple .cpp files
+
+
 EXE = all hail the best makefile
 
 CC = g++
 
-OBJECTS = main.o
+OBJECTS = main.o second.o
 
 LFLAGS = 
 
@@ -13,6 +16,9 @@ $(EXE):				$(OBJECTS)
 
 main.o:				main.cpp
 					$(CC) $(CFLAGS) -c main.cpp
+
+second.o:			second.cpp
+					$(CC) $(CFLAGS) -c second.cpp
 
 
 clean:		
