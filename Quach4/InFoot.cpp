@@ -90,7 +90,7 @@ while (tmp!=1)
 	}
 	else if (len=="inch" or len=="in" or len=="inches")
 	{
-		checkFT();
+		checkIN();
 		setNameIn(len);
 		setLengthIn(len2);
 		tmp=1;
