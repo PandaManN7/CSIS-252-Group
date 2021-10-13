@@ -1,0 +1,21 @@
+
+file			Function			Description	
+------------------	------------------		------------------
+main.cpp		main				main function
+classInFt.h		measurement			measurement class specification
+InFoot.cpp		measurement methods		measurement class
+--------------------------------------------------------------------------
+
+The program will show you the setters and getters and the overloaded operators. This program will also convert inches to feet and vice versa. 
+
+The first input required is feet or inches. You are able to use any form of these measurements. i.e inch, inches, in, and foot, feet, ft.
+The second input required is some form of numeric number. Can be whole numbers or decimals, but cannot be a negative number.
+
+The outputs will be the getters of measurement 1, the setters for measurements 2 and 3, setting the values of 4 and 5, the relationship between 4 and 5, the overloaded assignment, and the copy constructor. These will be produced on screen. 
+
+At first I didn't understand the difference between the overloaded assignment and the copy constructor because when I did just the overloaded assignment it worked for both for some reason. After I continued to work with both, I understood how and why they are different and that both are needed.
+
+I tested my program with someone who has no knowledge of programming to see if the prompts and the wording is clear. They noticed a few spelling errors and a few wonky layouts that I was able to fix immediately afterwards that I probably wouldn't have noticed myself. 
+
+One of the bugs I encountered and is still in the program is that if you don't enter a number in the prompt you will get an infinite loop. I spent a lot of time trying to figure out how to fix it, however I was unable to do so. I have another file saved that shows how I was trying to fix it if you would like to see that later. 
+-Update on this, I had a little bit of time and was able to somewhat fix this bug. It doesn't have an infinite loop anymore if you don't type a number, but there is still some issues with it. The issue I mentioned is that if you accidentally type two decimals, it doesn't make you re-enter it. The same goes for if a letter or non number is entered. I thought I had a fix for this but it did not work how I wanted it to.
