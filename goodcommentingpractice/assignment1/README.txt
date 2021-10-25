@@ -8,4 +8,4 @@ I want to describe what each thing is initalizing (no long description). I think
 
 For other cpp Files
 
-I go indepth on what is happening within the function by adding almost a paragraph like description mixed with post and pre arguments descriptions. 
+I go indepth on what is happening within the function by adding almost a paragraph like description mixed with postconditions and preconditions descriptions.
