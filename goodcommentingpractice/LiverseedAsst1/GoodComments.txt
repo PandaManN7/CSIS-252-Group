@@ -1,0 +1,3 @@
+My commenting style is to try and give a good idea of how the program flows incase one needs to re-factor the code later
+
+I think this makes spottting/fixing errors/bugs much easier becuase you can see what is going on at every step of the program
